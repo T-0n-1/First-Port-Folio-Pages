@@ -1,0 +1,37 @@
+body {
+    background-color: #000;
+}
+
+audio {
+    display: none;
+}
+
+container {
+    color: #888;
+    font-family: 'Bungee Shade';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#start {
+    display: none;
+    background-image: repeating-linear-gradient(#cc7aec, #c65cf0);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

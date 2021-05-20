@@ -1,0 +1,59 @@
+<!-- Tästä alkaa yhdistetty HTML-tiedosto -->
+
+<!-- Mukana -->
+
+<!-- dTrooperin Fireworks 3 -->
+<!-- https://jsfiddle.net/dtrooper/AceJJ/ -->
+
+<!-- Perus HTML5-avaus kaikkine kilkkeinee -->
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" href="css/styles2.css">
+  <title>JAVASCRIPT - ARVAUSPELI</title>
+</head>
+
+<body>
+
+  <div id="page-wrapper">
+    <h1>Arvauspeli</h1>
+
+    <!-- Tästä alkaa alkuperäisen arvauspelin koodi -->
+    <p id="output">
+      Arvaa luku väliltä 1 - 100
+    </p>
+    <p>Valitsen luvun yhden ja sadan väliltä, sinun tulee yrittää arvata valitsemani numero.</p>
+
+    <input type="number" name="input" id="input" style="color: black" placeholder="Arvauksesi?"><br>
+    <button id="guess">Arvaa</button>
+    <button id="reset"><a href="index3.html">Pelaa uudelleen</a></button>
+    <button id="back"><a href="../index.html">Palaa takaisin</a></button>
+
+  </div>
+  <!-- Page-wrapper loppuu tähän -->
+
+  <!-- Tähän äänitehosteet -->
+  <audio id="wav1" controls>
+    <source src="js/fireworks-distant.wav" type="audio/wav">
+  </audio>
+
+  <audio id="wav2" controls>
+    <source src="js/superhero-fanfare.wav" type="audio/wav">
+  </audio>
+
+  <audio id="open" controls>
+    <source src="js/bgmusic_tense.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Lopussa ladattavat scriptit -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/script2.js"></script>
+</body>
+
+</html>
+<!-- tähän päättyy nettisivu -->
